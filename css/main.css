@@ -4,10 +4,10 @@
 	box-sizing: border-box;
 }
 
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
-  color: hsl(228, 45%, 44%); 
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: hsl(228, 45%, 44%);
 }
 body {
 	font-family: 'Libre Franklin', sans-serif;
@@ -48,12 +48,10 @@ form {
 }
 
 .main-container {
-	
 	display: flex;
-	
 	align-items: center;
 	height: 100vh;
-	
+
 	flex-direction: column;
 	text-align: center;
 }
@@ -94,10 +92,8 @@ form {
 .main-container #btn {
 	display: inline-block;
 	margin-top: 0px;
-
-	padding: 20px 50px;
-
-	border: none;
+  padding: 20px 50px;
+  border: none;
 	border-radius: 30px;
 	outline: none;
 	background-color: #4f7df3;
@@ -138,7 +134,6 @@ form {
 }
 
 .main-container .social {
-	
 	display: flex;
 	margin: 20px;
 }
@@ -147,10 +142,8 @@ form {
 	border: 0.5px solid #c2d3ff;
 	border-radius: 50%;
 	width: 40px;
-	
-	align-items: center;
-	
-	justify-content: center;
+  align-items: center;
+  justify-content: center;
 	text-align: center;
 	margin-left: 10px;
 	padding: 10px;
